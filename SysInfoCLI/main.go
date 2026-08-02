@@ -28,6 +28,7 @@ func main() {
 	var memoryInByte int64 = 17171771717717
 	memoryInGB := float64(memoryInByte)/ (1024 * 1024 * 1024)
 	
+
 	fmt.Printf("Hostname: %s | Username: %s | OS: %s | Time: %s | Memory: %.2f GB", host, environ, system, formatted, memoryInGB)
 
 }
